@@ -1,0 +1,108 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+
+input[type="radio"] { 
+    position: absolute;
+}
+input[type="radio"] ~ label { 
+    padding-left:1.4em;
+  display:inline-block;
+}
+
+#paradox {
+	background-color: darkslategrey;
+	color: greenyellow;
+	font-size:20px;
+}
+
+.skills {
+	font-weight:700;
+	font-size:larger;
+	font-style: italic;
+}
+
+.worldrecord {
+	background-color:blueviolet;
+	color: white;
+	font-weight:900;
+	font-family:'Courier New', Courier, monospace;
+}
+
+.intro {
+	font-size:larger;
+}
+
+#color {
+	font-size: 25px;
+	background-color: black;
+	border:#ddd;
+	color:white;
+}
+
+#place {
+	font-size:30px;
+	background-color:firebrick;
+	padding: 20px;
+	border-radius: 65px;
+}
+
+#ritual {
+	position: absolute;
+	border: 0px;
+	font-size: 25px;
+	margin: 20px;
+	background-color: darkgreen;
+	color: lightgreen;
+	border-radius: 9px;
+}
+
+#randombutton {
+	font-size:20px;
+	background-color:cyan;
+	padding: 15px;
+	border-radius: 60px;
+
+}
+
+
+#randomText {
+	font-weight: 800;
+}
+
